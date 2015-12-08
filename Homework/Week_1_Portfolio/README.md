@@ -50,6 +50,10 @@ To submit the homework, please follow the [homework cheat sheet](../../HW_Cheat_
 - Use at least 6 different HTML tags (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`, `p`, `ul`, `ol`, `a`, `img`) on your pages
 - Follow naming conventions, maintain consistency across your .html and .css files
 - Indent nested elements to increase your code's readability
+- Use HTML5 structural elements
+- Use a CSS Reset file in addition to your style.css file to style the page
+- Use classes to to select and style elements on the page
+- Follow naming conventions, maintain consistency across .html and .css files and use best practices for naming classes
 
 #### Bonus
 
