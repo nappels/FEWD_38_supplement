@@ -19,13 +19,13 @@ To submit the homework, please follow the [homework cheat sheet](../../HW_Cheat_
 
 ---
 
-![Relaxr Blog](../../Class_Starter_Code/class_5_relaxr_blog/starter_code/relaxr_blog.jpg)
+![Relaxr Blog](../../class_starter_code/class_5_relaxr_blog/starter_code/relaxr_blog.jpg)
 
 <br>
 
 ---
 
-![Starup Matchmaker](../../Class_Starter_Code/class_6_startup_match/starter_code/StartupMatchmaker.png)
+![Starup Matchmaker](../../class_starter_code/class_6_startup_match/starter_code/StartupMatchmaker.png)
 
 <br>
 
@@ -58,7 +58,7 @@ To submit the homework, please follow the [homework cheat sheet](../../HW_Cheat_
 * Add a hover effect to all the links and/or navigation items using pseudo-classes
 
 #### Bonus
-* Use the correct ```Open Sans``` Google Font typeface to style the text denoted in the design file 
+* Use the correct ```Open Sans``` Google Font typeface to style the text denoted in the design file
 
 - Up for a real challenge? Use ```<script>``` tags in your HTML and [read ahead](https://learn.jquery.com/events/event-basics/) to make a dialogue box pop up when a user clicks "Sign Up Now!" that reads "We're Not Ready For Sign-Ups...Yet."
 
