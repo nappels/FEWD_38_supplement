@@ -57,13 +57,13 @@ JavaScript is powerful: we're able to take user interaction and information and 
 Take a look at what your final product should look like before and after:
 
 
-![Deliverable](solution_code/images/citipix_solution.png)
+![Deliverable](starter_code/images/citipix_solution.png)
 
 
 After entering "NYC" and submitting:
 
 
-![Deliverable](solution_code/images/citipix_solution_nyc.png)
+![Deliverable](starter_code/images/citipix_solution_nyc.png)
 
 
 
