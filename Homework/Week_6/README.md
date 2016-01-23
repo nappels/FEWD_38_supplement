@@ -42,8 +42,7 @@ The team from CitiPix has reached out for iteration on their prototype.  Instead
 - While the dropdown menu should update the page in the same way it did after your work last week, take a look at what your final product should look like with a dropdown menu:
 
 
-![Deliverable](solution_code/images/citipix_solution_week6.png)
-
+![Deliverable](starter_code/images/citipix_solution_week6.png)
 
 
 
@@ -63,14 +62,6 @@ The team from CitiPix has reached out for iteration on their prototype.  Instead
 Read ahead [about responsive design for next week](http://www.smashingmagazine.com/2011/01/12/guidelines-for-responsive-web-design/)
 
 
-<br>
-
----
-
-###Evaluation / Submission
-
-
-Students should use the same folder and GitHub repository as the previous project ("homework-city"). When ready for evaluation they should push their code to that repository. Instructional team should evaluate against the solution code and the student's use of technical elements. They will provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2).  The maximum possible score on this assignment is 16/16. Bonus materials are completely optional.
 
 
 
