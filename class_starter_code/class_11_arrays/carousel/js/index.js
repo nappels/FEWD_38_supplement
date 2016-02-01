@@ -12,34 +12,45 @@
 
 // Bonus: Print out all items in the image array as <li>'s using a loop.
 // Double bonus: Add an active style to the currently displaying image.
+// Tripple bonus: Clicking on one of the list items will take you to the correct image, and keep the user in the right place when they click back/next
+
+$(document).ready(function() {
+  var counter = 0;
+
+  var images = [
+    'images/food1.jpg',
+    'images/food2.jpg',
+    'images/food3.jpg',
+    'images/food4.jpg',
+    'images/food5.jpg',
+    'images/food6.jpg',
+    'images/food7.jpg',
+    'images/food8.jpg'
+  ];
+
+  $('.next').click(function() {
+    if (counter < images.length - 1) {
+      counter = counter + 1;
+    }
+
+    $('.image').attr('src', images[counter]);
+  });
+
+  $('.back').click(function() {
+    counter = counter - 1;
+
+    $('.image').attr('src', images[counter]);
+  });
 
 
-var counter = 0;
+  $.each(images, function(index, value) {
+    $('.image-list').append('<li>' + value + '</li>');
+  });
 
-var images = [
-  'images/food1.jpg',
-  'images/food2.jpg',
-  'images/food3.jpg',
-  'images/food4.jpg',
-  'images/food5.jpg',
-  'images/food6.jpg',
-  'images/food7.jpg',
-  'images/food8.jpg'
-];
+}); // end ready
 
-$('.next').click(function() {
-  if (counter < images.length - 1) {
-    counter = counter + 1;
-  }
 
-  $('.image').attr('src', images[counter]);
-});
 
-$('.back').click(function() {
-  counter = counter - 1;
-
-  $('.image').attr('src', images[counter]);
-});
 
 
 
