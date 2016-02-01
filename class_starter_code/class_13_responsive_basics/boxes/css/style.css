@@ -1,0 +1,46 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.placeholder {
+  background-color: rgba(255,0,0,.5);
+  height: 140px;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.placeholder.small {
+  height: 60px;
+}
+
+header,
+footer {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.burger {
+  float: right;
+  padding: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.burger .bun {
+  height: 2px;
+  width: 30px;
+  background: #999;
+  margin-bottom: 6px;
+}
+.burger .bun:last-child {
+  margin-bottom: 0;
+}
