@@ -17,22 +17,6 @@ body {
      line-height: 0;
      height: 0;
 }
-.burger {
-  float: right;
-  padding: 20px;
-  cursor: pointer;
-	display: none;
-}
-
-.burger .bun {
-  height: 2px;
-  width: 30px;
-  background: yellow;
-  margin-bottom: 6px;
-}
-.burger .bun:last-child {
-  margin-bottom: 0;
-}
 h1 {
 	font-size: 2em;
 	line-height: 1;
@@ -181,33 +165,49 @@ footer {
 	color: white;
 	padding: 2% 3%;
 }
+@media screen and (max-width:1080px) and (min-width: 980px){
+	nav{
 
-
-@media only screen and (max-width: 1150px) {
-	/*break header styles*/
-}
-
-@media only screen and (max-width: 650px) {
-	.tout {
-		width: 100%;
-	}
-
-	#page-header nav li {
-		float: none;
-	}
-
-	#page-header nav {
-		float: none;
-		clear: both;
-	}
-
-	.burger {
-		display: block;
+		font-size: 18px;
 	}
 }
-
-
-
-
-
-
+@media screen and (max-width:980px) and (min-width: 768px){
+	nav{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 768px){
+	body{
+		font-size: 16px;
+	}
+	nav{
+		width:100%;
+	}
+	.tagline,.blurb > p:first-of-type{
+		display: none;
+	}
+	.blurb{
+		width:60%;
+	}
+	.tout{
+		width:94%;
+		box-shadow: none;
+	}
+	#page-header nav li{
+		float: none;
+	}
+	#page-header nav li:first-child{
+		display:block;
+		position: absolute;
+		top:.25em;
+		right:.5em;
+	}
+	ul{
+		height:0;
+		transition:height 1s;
+		overflow: hidden;
+	}
+}
+.slideDown{
+	height:20em;
+}

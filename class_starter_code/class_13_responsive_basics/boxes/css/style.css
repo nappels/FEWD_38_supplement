@@ -37,9 +37,7 @@ footer {
 }
 
 .burger {
-  float: right;
-  padding: 20px;
-  cursor: pointer;
+
   display: none;
 }
 
